@@ -49,6 +49,12 @@
   }
 }
 
+\newcommand{\resumeItemNoBold}[1]{
+  \item\small{
+    \textbf{#1}{#1 \vspace{-2pt}}
+  }
+}
+
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
@@ -89,25 +95,25 @@
       
       \resumeItemListHeading{Zomato Base (Point of Sale (POS) system for restaurants)}
       \resumeItemListStart
-          \item
+          \resumeItemNoBold
           {Built a mongoDB based logging system for monitoring user's journey and actions on dashboard.}
-          \item
+          \resumeItemNoBold
           {Developed menu management system to manage multiple outlets efficiently from a centralized dashboard.}
-          \item
+          \resumeItemNoBold
           {Created combo management system with automated pricing for products based on their original price.}
-          \item
+          \resumeItemNoBold
           {Worked on the inventory management with automatic stock reduction based on predefined recipes.}
       \resumeItemListEnd
       
       \resumeItemListHeading{Zomato Cashless (Order using Zomato app at Dine In restaurants)}
       \resumeItemListStart
-          \item
+          \resumeItemNoBold
           {Integrated the Zomato consumer app with the POS system that allows users to order from their phone.}
-          \item
+          \resumeItemNoBold
           {Built a two-way data flow that allows changes to order from both the app and the POS system.}
-          \item
+          \resumeItemNoBold
           {Built the APIs to create/update order from the app and push the data to POS system using PubNub.}
-          \item
+          \resumeItemNoBold
           {Created webhooks to provide order status updates to app and push changes from POS system to the app.}
       \resumeItemListEnd
       
@@ -115,9 +121,9 @@
       {Google Summer of Code 2017}{Remote}
       {\href{http://cltk.org/}{Mentor, Classical Language Toolkit (CLTK)}}{April 2017 - Sept 2017}
       \resumeItemListStart
-          \item
+          \resumeItemNoBold
           {Mentored the project to build an annotations module for CLTK webapp.}
-          \item
+          \resumeItemNoBold
           {Worked closely with the student and the other mentor to design a modular system.}
       \resumeItemListEnd
 
@@ -125,9 +131,9 @@
       {Google Summer of Code 2016}{Remote}
       {\href{http://cltk.org/}{Classical Language Toolkit (CLTK)}}{May 2016 - Sept 2016}
       \resumeItemListStart
-          \item
+          \resumeItemNoBold
           {Worked on the CLTK webapp - a modern reading environment to study classical languages.}
-          \item
+          \resumeItemNoBold
           {Updated the webapp to provide definitions, translations and commentary along with the text.}
       \resumeItemListEnd
 
@@ -135,11 +141,11 @@
       {\href{http://www.aspiringminds.com}{Aspiring Minds}}{Gurgaon, India}
       {Research and Development Intern}{June 2015 - July 2015}
       \resumeItemListStart
-        \item
+        \resumeItemNoBold
           {Developed a CRM-simulation module integrated into the employability assessment platform AMCAT.}
-        \item
+        \resumeItemNoBold
           {Built the UI for the module from scratch and built the backend for question delivery and scoring.}
-        \item
+        \resumeItemNoBold
           {Designed the database schema for the module compatible with the current platform’s database.}
       \resumeItemListEnd
 
