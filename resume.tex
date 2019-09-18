@@ -1,6 +1,6 @@
 %-------------------------
 % Resume in Latex
-% Author : Sourabh Bajaj
+% Author : Suhaib Khan
 % License : MIT
 %------------------------
 
@@ -73,7 +73,7 @@
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 \newcommand{\resumeItemListHeading}[1]{\textbf{#1}\vspace{-5pt}}
 
-%-------------------------------------------
+%------------------------------------------- 
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -81,55 +81,73 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://suheb.in/}{\Large Suhaib Khan}} & Email : \href{mailto:suheb.work@gmail.com}{suheb.work@gmail.com}\\
-  \href{https://suheb.in/}{Web://suheb.in }\textbar \href{https://github.com/suheb}{ Github://suheb} & Mobile : +31-610050054 \\
+  \textbf{\href{https://suheb.in/}{\Large Suhaib Khan}} London, E147TB & Email : \href{mailto:suheb.work@gmail.com}{suheb.work@gmail.com}\\
+  \href{https://suheb.in/}{Web://suheb.in } \textbar \href{https://github.com/suheb}{ Github://suheb} \textbar \href{https://www.linkedin.com/in/suhebk/}{ LinkedIn://suhebk} & Mobile: +447375831534
 \end{tabular*}
 
+\vspace{5pt}
+\textbf{Note: I've right to work in the UK (Exceptional Talent Tier 1 visa) and don't require sponsorship.}
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
   
    \resumeSubheading
-   	  {\href{https://picnic.app/}{Picnic}}{Amsterdam,NL}
-      {Software Engineer}{Oct 2018 - Present}
+   	  {\href{https://picnic.app/}{\underline{Picnic}}}{Amsterdam, NL}
+      {Software Engineer}{Oct 2018 - Aug 2019}
       \resumeItemListStart
           \resumeItemNoBold
-          {Building the Runner app from scratch using React Native and TypeScript.}
+          {Built the cross-platform app in \textbf{React Native} used by the entire delivery fleet for making deliveries to customers.}
+          \resumeItemNoBold
+          {Created a web dashboard in \textbf{React} with a overview of all deliveries and real-time location of delivery persons.}
+          \resumeItemNoBold
+          {Used \textbf{TypeScript} for static type safety and built a decoder generator for run-time type safety.}
+          \resumeItemNoBold
+          {Mentored an intern from a coding bootcamp and groomed him into a professional developer.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+   	  {\href{https://www.microsoft.com}{\underline{Microsoft}}}{Bangalore, IN}
+      {Software Engineer}{July 2018 - Sept 2018}
+      \resumeItemListStart
+          \resumeItemNoBold
+          {Built a side-by-side search result comparison tool for Microsoft Teams in \textbf{AngularJS}}
+          \resumeItemNoBold
+          {Added analytics that allowed the team to measure the performance of the new search API}
       \resumeItemListEnd
 
     \resumeSubheading
-      {\href{https://www.zomato.com}{Zomato}}{Gurgaon, IN}
+      {\href{https://www.zomato.com}{\underline{Zomato}}}{Gurgaon, IN}
       {Software Development Engineer}{Oct 2016 - June 2018}
       
       \resumeItemListHeading{Zomato Base (Point of Sale (POS) system for restaurants)}
       \resumeItemListStart
           \resumeItemNoBold
-          {Built a mongoDB based logging system for monitoring user's journey and actions on dashboard.}
-        %   \resumeItemNoBold
-        %   {Developed menu management system to manage multiple outlets efficiently from a centralized dashboard.}
+          {Built a \textbf{MongoDB} based logging system for monitoring user's journey and actions on dashboard.}
+          \resumeItemNoBold
+          {Developed menu management system to manage multiple outlets efficiently from a centralized dashboard.}
           \resumeItemNoBold
           {Created combo management system with automated pricing for products based on their original price.}
           \resumeItemNoBold
           {Worked on the inventory management with automatic stock reduction based on predefined recipes.}
           \resumeItemNoBold
-          {Added caching to user permission module using Redis to improve page load time by 50\%.}
+          {Added caching to user permission module using \textbf{Redis} to improve page load time by 50\%.}
       \resumeItemListEnd
       
       \resumeItemListHeading{Zomato Cashless (Order using Zomato app at Dine In restaurants)}
       \resumeItemListStart
           \resumeItemNoBold
-          {Integrated the Zomato consumer app with the POS system that allows users to order from their phone.}
+          {Integrated the Zomato consumer app with the POS system that allows users to order from their own phone.}
           \resumeItemNoBold
-          {Built a two-way data flow that allows changes to order from both the app and the POS system.}
+          {Built a two-way data flow system that allows changes to order from both the app and the POS system.}
           \resumeItemNoBold
-          {Built the APIs to create/update order from the app and push the data to POS system using PubNub.}
+          {Built the APIs to create/update order from the app and push the data to POS system using \textbf{PubNub}.}
           \resumeItemNoBold
-          {Created webhooks to provide order status updates to app and push changes from POS system to the app.}
+          {Created \textbf{webhooks} to provide order status updates to app and push changes from POS system to the app.}
       \resumeItemListEnd
       
       \resumeSubheading
       {Google Summer of Code 2017}{Remote}
-      {\href{http://cltk.org/}{Mentor, Classical Language Toolkit (CLTK)}}{April 2017 - Sept 2017}
+      {\href{http://cltk.org/}{Mentor, \underline{Classical Language Toolkit (CLTK)}}}{April 2017 - Sept 2017}
       \resumeItemListStart
           \resumeItemNoBold
           {Mentored the project to build an annotations module for CLTK webapp.}
@@ -137,32 +155,32 @@
           {Worked closely with the student and the other mentor to design a modular system.}
       \resumeItemListEnd
       
-% 	\resumeSubheading
-%       {\href{https://archimedes.digital}{Archimedes Digital}}{Remote}
-%       {Web Developer}{Aug 2016 - Sept 2016}
-%       \resumeItemListStart
-%         \resumeItemNoBold
-%           {Worked on developing an online catalog for museums using scans of various objects (artifacts, books etc).}
-%         \resumeItemNoBold
-%           {Developed a highly zoomable image viewer to high-resolution scans in detail.}
-%         \resumeItemNoBold
-%           {Integrated code linting and added test suites to be used across projects.}
-%       \resumeItemListEnd
+	\resumeSubheading
+      {\href{https://archimedes.digital}{\underline{Archimedes Digital}}}{Remote}
+      {Web Developer}{Aug 2016 - Sept 2016}
+      \resumeItemListStart
+        \resumeItemNoBold
+          {Worked on developing an online catalog for museums using scans of various objects using \textbf{React}.}
+        \resumeItemNoBold
+          {Developed a highly zoomable image viewer to high-resolution scans in detail.}
+        \resumeItemNoBold
+          {Integrated \textbf{code linting} and setup \textbf{test suites} to be used across projects.}
+      \resumeItemListEnd
 
     \resumeSubheading
       {Google Summer of Code 2016}{Remote}
-      {\href{http://cltk.org/}{Classical Language Toolkit (CLTK)}}{May 2016 - Sept 2016}
+      {\href{http://cltk.org/}{\underline{Classical Language Toolkit (CLTK)}}}{May 2016 - Sept 2016}
       \resumeItemListStart
           \resumeItemNoBold
-          {Worked on the CLTK webapp - a modern reading environment to study classical languages.}
+          {Built the CLTK webapp in \textbf{React} - a modern reading environment to study classical languages.}
           \resumeItemNoBold
-          {Created a REST API for CRUD operations using Python and Flask}
+          {Created a REST API for CRUD operations using \textbf{Python} and \textbf{Flask}}
           \resumeItemNoBold
           {Updated the webapp to provide definitions, translations and commentary along with the text.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {\href{http://www.aspiringminds.com}{Aspiring Minds}}{Gurgaon, IN}
+      {\href{http://www.aspiringminds.com}{\underline{Aspiring Minds}}}{Gurgaon, IN}
       {Research and Development Intern}{June 2015 - July 2015}
       \resumeItemListStart
         \resumeItemNoBold
@@ -179,30 +197,30 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{\href{https://github.com/suheb/musichub}{Music Hub}}
+    \resumeSubItem{\href{https://github.com/suheb/musichub}{\underline{Music Hub}}}
       {Android app that connects multiple devices via WIFI and plays music in all connected devices simultaneously to create a loud stereo-like sound effect.}
-    \resumeSubItem{\href{https://play.google.com/store/apps/details?id=com.haloappstudio.musictimer&hl=en}{Music Timer}}
+    \resumeSubItem{\href{https://play\underline{.google.com/}store/apps/details?id=com.haloappstudio.musictimer&hl=en}{\underline{Music Timer}}}
       {Android app that monitors phone’s movement to detect whether the user is asleep and pause music playback accordingly.}
   \resumeSubHeadingListEnd
 
-% %--------OPEN SOURCE------------
-% \section{Open Source Contributions}
-%   \resumeSubHeadingListStart
-%     \resumeSubItem{\href{https://github.com/cltk}{CLTK}}
-%       {Active member, worked on the \href{https://github.com/cltk/cltk_frontend/commits?author=suheb}{\emph{CLTK Web app}} and \href{https://github.com/cltk/cltk_api/commits?author=suheb}{\emph{CLTK API}}.}
-%     \resumeSubItem{\href{https://github.com/fossasia}{FOSSASIA}}
-%       {Past contributor, worked on the Open Event project (both \href{https://github.com/fossasia/open-event-server/pulls?q=is\%3Apr+author\%3Asuheb+is\%3Aclosed}{\emph{Server}} and \href{https://github.com/fossasia/open-event-android/pulls?q=is\%3Apr+author\%3Asuheb+is\%3Aclosed}{\emph{Android app}}).}
-%     \resumeSubItem{\href{https://github.com/phpbb}{phpBB}}
-%       {Past contributor, implemented a live search \href{https://github.com/phpbb/phpbb/pulls/suheb}{feature and fixed bugs}.}
-%   \resumeSubHeadingListEnd
+%--------OPEN SOURCE------------
+\section{Open Source Contributions}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\href{https://github.com/cltk}{\underline{CLTK}}}
+      {Active member, worked on the \href{https://github.com/cltk/cltk_frontend/commits?author=suheb}{\underline{CLTK Web app}} and \href{https://github.com/cltk/cltk_api/commits?author=suheb}{\underline{CLTK API}}.}
+    \resumeSubItem{\href{https://github.com/fossasia}{\underline{FOSSASIA}}}
+      {Past contributor, worked on the Open Event project (both \href{https://github.com/fossasia/open-event-server/pulls?q=is\%3Apr+author\%3Asuheb+is\%3Aclosed}{\underline{Server}} and \href{https://github.com/fossasia/open-event-droidgen/pulls?q=is\%3Apr+is\%3Aclosed+author\%3Asuheb}{\underline{Android app}}).}
+    \resumeSubItem{\href{https://github.com/phpbb}{\underline{phpBB}}}
+      {Past contributor, implemented a live search \href{https://github.com/phpbb/phpbb/pulls?q=is\%3Apr+author\%3Asuheb+is\%3Aclosed}{\underline{feature and fixed bugs}}.}
+  \resumeSubHeadingListEnd
   
 %--------PROGRAMMING SKILLS------------
 \section{Programming Skills}
  \resumeSubHeadingListStart
     \resumeSubItem{Languages}
-       {PHP, Python, Javascript, C++, SQL, Java}
+       {Javascript, TypeScript, Python, Java, C++, PHP, SQL}
     \resumeSubItem{Tools and Frameworks}
-       {Git, Android, Laravel, React, Meteor, Flask, MySQL, jQuery.}
+       {React, React Native, jQuery, Flask, Git, Android, Laravel, MySQL}
  \resumeSubHeadingListEnd
 
 %--------AWARDS and ACHIEVEMENTS------------
@@ -230,8 +248,10 @@
 %--------TALKS & CONFERENCES------------
 \section{Talks and Conferences}
  \resumeSubHeadingListStart
-    \resumeSubItem{\href{https://2017.fossasia.org/tracks.html\#2891}{FOSSASIA Summit 2017}}{Introduction to the Classical Language Toolkit and Archive}\hfill{Singapore}
-    \resumeSubItem{\href{https://www.meetup.com/en-AU/LinuxChix-India-Meetup/events/242031500/}{LinuxChix India Meetup}}
-       {Talk on How SSH Works?}\hfill{New Delhi}
+    \resumeSubItem{\href{https://2017.fossasia.org/tracks.html\#2891}{\underline{FOSSASIA Summit 2017}}}{Introduction to the Classical Language Toolkit and Archive}\hfill{Singapore}
+    \resumeSubItem{\href{https://github.com/linuxchixin/talks}{\underline{LinuxChix India Meetup}}}
+       {How SSH Works?}\hfill{New Delhi}
+    \resumeSubItem{\href{https://www.meetup.com/pydelhi/events/mglhqpyxhbqb/}{\underline{PyDelhi}}}
+       {Dabbling with Decorators}\hfill{New Delhi}
  \resumeSubHeadingListEnd
 \end{document}
