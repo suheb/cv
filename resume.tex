@@ -73,11 +73,27 @@
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 \newcommand{\resumeItemListHeading}[1]{\textbf{#1}\vspace{-5pt}}
 
+% Color definitions
+\usepackage[usenames,dvipsnames]{xcolor} 
+\definecolor{date}{HTML}{666666} 
+
+% Date command
+\usepackage[absolute]{textpos}
+\usepackage[UKenglish]{isodate}
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{1mm}
+\newcommand{\lastupdated}{\begin{textblock}{60}(161,5)
+\fontsize{8pt}{10pt}\selectfont 
+\textcolor{date}{Last Updated on \today}
+\end{textblock}}
+
+
 %------------------------------------------- 
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}
+\lastupdated
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
